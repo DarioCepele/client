@@ -17,7 +17,7 @@ const Home = () => {
       setLoading(true);
       const response = await axios.get("https://api.spoonacular.com/recipes/random", {
         params: {
-          apiKey: process.env.SPOONACULAR_API,
+          apiKey: process.env.REACT_APP_SPOONACULAR,
           number: 4,
         },
       });
