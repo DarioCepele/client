@@ -25,7 +25,6 @@ const Home = () => {
         setData(response.data.recipes);
         setHeroVisible(false);
         setLoading(false);
-        console.log(response.data.recipes);
       }
     } catch (error) {
       console.error("Error fetching data:", error);

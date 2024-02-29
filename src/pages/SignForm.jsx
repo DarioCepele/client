@@ -42,7 +42,6 @@ const SignForm = () => {
         setIsLoggedIn(true);
         navigate("/");
       } catch (error) {
-        console.error(error);
         setFormData({
           ...formData,
           errorMessage: "An error occurred while registering. Please try again later.",
