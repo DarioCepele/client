@@ -5,9 +5,9 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col justify-center items-center bg-zinc-900 h-screen">
-        <p className="my-2 px-2 lg:px-36 block origin-top-left font-mono text-5xl font-black text-white">VeggieVibes</p>
-        <div className="my-20 mx-20 px-2 lg:px-36 block origin-top-left font-mono text-2xl font-black text-white">
+      <div className="flex flex-col justify-center items-center bg-zinc-900 md:h-screen lg:h-screen">
+        <p className="my-5 px-2 lg:px-36 block origin-top-left font-mono text-5xl font-black text-white">TastyHub</p>
+        <div className="lg:my-20 my-10 lg:mx-20 mx-4 px-2 lg:px-36 block origin-top-left font-mono text-2xl font-black text-white">
           <p>
             Welcome to my recipe site, a combination of culinary passion and technological efficiency. With a
             interactive front-end in React, I offer you an engaging visual experience. Thanks to the integration with

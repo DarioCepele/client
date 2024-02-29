@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center py-7 px-5">
         {/* ::Site logo and Name */}
         <Link to={"/"} className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0">
-          <span className="ml-3 text-2xl font-mono text-neutral-50 font-semibold antialiased">VeggieVibes</span>
+          <span className="ml-3 text-2xl font-mono text-neutral-50 font-semibold antialiased">TastyHub</span>
         </Link>
         {/* ::Navbar */}
         <nav className="hidden md:flex flex-wrap items-center justify-center tracking-wide text-lg">

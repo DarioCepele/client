@@ -42,8 +42,8 @@ const Home = () => {
           >
             Shuffle!
           </button>
-          <div id="hero" className={`mt-20 flex-grow flex items-center justify-center ${heroVisible ? "" : "hidden"}`}>
-            <div className="text-white text-xl lg:text-5xl">{<Discover />}</div>
+          <div id="hero" className={` flex-grow flex items-center justify-center`}>
+            <div className="text-white text-xl lg:text-5xl">{heroVisible && <Discover />}</div>
           </div>
         </div>
         <div className="mx-auto w-full md:w-2/3 lg:w-4/5 flex flex-wrap justify-center items-center gap-6 md:gap-8 lg:gap-12">
