@@ -7,11 +7,11 @@ const Contact = () => {
       <Navbar />
       <div className="flex flex-col justify-center items-center bg-[#F5F5F5] h-screen">
         <div>
-          <p className="my-2 px-2 lg:px-36 block origin-top-left font-poppins font-semibold text-5xl text-black">
+          <p className="my-2 px-2 lg:px-36 origin-top-left font-poppins font-semibold text-5xl text-black">
             VeggieVibes
           </p>
         </div>
-        <div className="my-10 mx-10 md:my-20 md:mx-20 px-2 lg:px-36 block origin-top-left font-poppins text-lg md:text-2xl text-black">
+        <div className="my-10 mx-10 md:my-20 md:mx-20 px-2 lg:px-36 origin-top-left font-poppins text-lg md:text-2xl text-black">
           <p>
             Welcome to my recipe site, a combination of culinary passion and technological efficiency. With a
             interactive front-end in React, I offer you an engaging visual experience. Thanks to the integration with
