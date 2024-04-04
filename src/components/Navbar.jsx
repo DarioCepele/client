@@ -30,7 +30,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link to={"/favorites"} className="mr-8 text-gray-950">
-            MyRecipe
+            MyRecipes
           </Link>
           <Link to={"/contact"} className="mr-8 text-gray-950">
             Contact
@@ -72,7 +72,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link to="/favorites" className="block px-3 py-2 rounded-md text-gray-950  hover:bg-indigo-700">
-            MyRecipe
+            MyRecipes
           </Link>
           <Link to="/contact" className="block px-3 py-2 rounded-md text-gray-950  hover:bg-indigo-700">
             Contact
