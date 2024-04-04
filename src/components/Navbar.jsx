@@ -71,6 +71,9 @@ const Navbar = () => {
           <Link to="/" className="block px-3 py-2 rounded-md text-gray-950  hover:bg-indigo-700">
             Home
           </Link>
+          <Link to="/favorites" className="block px-3 py-2 rounded-md text-gray-950  hover:bg-indigo-700">
+            MyRecipe
+          </Link>
           <Link to="/contact" className="block px-3 py-2 rounded-md text-gray-950  hover:bg-indigo-700">
             Contact
           </Link>
