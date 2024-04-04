@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col justify-center items-center bg-[#F5F5F5] h-screen">
+      <div className="flex flex-col justify-center items-center bg-[#F5F5F5] lg:h-screen">
         <div>
           <p className="my-2 px-2 lg:px-36 font-poppins font-semibold text-5xl text-black">VeggieVibes</p>
         </div>
